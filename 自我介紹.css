@@ -1,0 +1,97 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+#vanta {
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 190%;
+
+}
+
+
+main {
+    position: relative;
+    opacity: 0;
+    filter: blur(10px);
+    transition: opacity 1s ease-in-out, filter 1s ease-in-out;
+}
+
+header {
+    margin-top: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header>img {
+    width: 10em;
+    height: 10em;
+    border-radius: 20px;
+    border: 3.5px solid rgb(225, 242, 231);
+    /* box-shadow: rgb(28, 32, 93 / 24%) 0px 2px 8px 0px; */
+}
+
+header>h1 {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 1em;
+    background-color: rgba(233, 201, 162, 0.667);
+    color: #fff;
+    padding: 0.3em 0.6em;
+    border: 1.5px solid rgba(248, 247, 247, 0.667);
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+}
+
+ul {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    padding: 2em;
+    max-width: 1100px;
+}
+
+ul>li {
+    background-color: #fffa;
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    border-radius: 14em;
+    padding: 1.5em;
+    margin: 1.7em 0;
+    box-shadow: rgb(28, 32, 93 / 24%) 0px 2px 8px 0px;
+}
+
+ul>li>hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+ul>li>a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

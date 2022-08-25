@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>自我介紹-gitPages</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./自我介紹.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            VANTA.NET({
+                el: "#vanta",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color: 0x8271b1,
+                backgroundColor: 0x10102
+            })
+            setTimeout(() => {
+                const main = document.querySelector("main")
+                main.style.opacity = 1
+                main.style.filter = 'blur(0px)'
+            }, 1000);
+        })
+    </script>
+</head>
+
+<body>
+    <div id="vanta"></div>
+    <main>
+        <header>
+            <img src="./image/頭貼.jpg" alt="picture" />
+            <h1>＠Neal Yang 的 AppWorks School 問答</h1>
+            <h1>我找了網路比較常見的問題模擬作答</h1>
+        </header>
+        <ul>
+            <li>
+                <!-- 1 -->
+                <a>--- 個人簡介 ---</a>
+                <hr size="2px" align="center" width="95%" color="purple">
+                <a>
+                    我是楊士賢，從小就喜歡挑戰別人覺得不可能的事情，我認為去實踐不可能自己才能成就不凡，這價值觀來自我從小到大所閱讀的書籍和影片，內化後我得到兩個結果，
+                    「面對任何事情都能鼓起勇氣去做」以及「寧願做過了後悔，也不要錯過了後悔」，這兩條準則是我堅持的態度，讓我在行事有著出色的行動力和不錯的效率，雖然有時候會失真，可能不小心方向錯了，但是經過總總我所犯錯的事情，讓我學會做事前思考更縝密一些，也為未來奠定基底。
+                </a>
+            </li>
+            <li>
+                <!-- 2 -->
+                <a>--- 為了成為軟體工程師，曾做過什麼努力 ---</a>
+                <hr size="2px" align="center" width="95%" color="blue">
+                <a>
+                    畢業將至，對於成為軟體工程師越加憧憬，軟體工程師就像網際網路的魔術師一樣，透過語法、變數、迴圈等一項項邏輯，解決網路問題的同時優化生活並寫出一行行如天書般的代碼。此情此景，讓我立志成為一名軟體工程師，為了實現這個目標，我在各大網站舉凡Udemy、Udacity以及聯成電腦上了付費的python的課程，當然！Youtube也是很好地利用，也因為做了這些功課讓我對於單元測試、gitlab、docker以及軟體工程師的前/後端等相關有著一定的了解，也讓我更加強化想要當一名後端工程師的心。
+                </a>
+            </li>
+            <li>
+                <!-- 3 -->
+                <a>--- 如果參與這個課程，會怎麼安排學習時間 ---</a>
+                <hr size="2px" align="center" width="95%" color="red">
+                <a>
+                    由於我想儘早成為一名獨當一面的軟體工程師，我現在大部分時間都在搜集自己的工具，去打磨跟發現新的利器，畢竟軟體工程師這條路沒有學完的一天，加上本身屬於工作狂類型，暑假與朋友遊玩期間都是隨身帶著筆電，一有靈感就查查資料確認一下可行性，閒暇之餘就泡在stackoverflow、CSDN等各大網站，所以，參加此課程我自己是會更加著重在node.js的開發以及後端database也就是mysql的部分進行加強和補足，同時也對Automation
+                    Test的相關技術和Linux進行更深入的了解與實作，期待半年後有更不一樣的自己。
+                </a>
+            </li>
+            <li>
+                <!-- 4 -->
+                <a>--- 請描述一件你曾經碰到最困難的事情，如何克服 ---</a>
+                <hr size="2px" align="center" width="95%" color="blue">
+                <a>
+                    以前國中、國小由於不愛唸書，成績甚差，尤其英文，大概是連APPLE都要稍微想要怎麼拚的那種，高中時期，為了能夠上自己心目中的大學，也就是我現在的大學，利用三年的時間，無時無刻都泡在課本的知識裡面透過『費曼學習法』來彌補我和其他人的巨大差異，不停的input、output只為了能夠在短短三年的時間趕上人家讀九年的書，為了教會自己國英數專一、專二，我在別人讀書時我在讀書，別人在玩樂時我也在讀書，從早上5:50搭第一班捷運只為了更早到學校，在大家趕時間到教室早自習前我已經把今天要幹嘛，上什麼課都預習好了。這就是我背水一戰的決心與學東西的態度，現在，我達到我那時的目標了，我上了我的第一志願-國立臺北科技大學，而我下一個目標，是成為一名獨當一面的軟體工程師......
+                </a>
+            </li>
+            <li>
+                <!-- 5 -->
+                <a>--- 請分享一個你開發這份project時的技術心得 ---</a>
+                <hr size="2px" align="center" width="95%" color="red">
+                <a>
+                    當初開發時遇到諸多問題像是排版上的差異、語法的不熟悉等，畢竟我的入門語言是python對html、css、js等是一頭霧水，不過因為我特別的熱愛學習也立志成為一名獨當一面的工程師，自己做了許多功課利用萬用的網路，去看了諸多教學影片、書籍等讓我對於這次第一次動手做的網頁還算滿意不會說是交差了事或是枯燥乏味，我加了一些我本不會但透過學習所掌握的美編語法，也是我的第一個網站專案！
+                </a>
+            </li>
+        </ul>
+    </main>
+</body>
+
+</html>
